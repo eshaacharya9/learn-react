@@ -16,7 +16,9 @@ export default function RecipeList() {
   return (
     <div>
       <h1>Recipes</h1>
-      {}
+      const listItems = recipes.map(recipe =>
+    <li>{person}</li>
+  );
     </div>
   );
 }
